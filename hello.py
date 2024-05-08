@@ -1,6 +1,12 @@
 def hello_world():
-	return print("Hello")
+	return "Hello"
 	
 
 def hello_world_n(N):
-	return print("Hello World! "*(N-1)+"Hello World!")
+	word = "Hello World! "*(N-1) + "Hello World!"
+
+    
+	return f"{word}"
+
+hello_world_n(3)
+

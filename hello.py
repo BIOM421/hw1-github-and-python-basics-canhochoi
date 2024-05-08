@@ -8,5 +8,4 @@ def hello_world_n(N):
     
 	return f"{word}"
 
-hello_world_n(3)
 
